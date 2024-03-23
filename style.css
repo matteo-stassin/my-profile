@@ -18,7 +18,7 @@ body, html {
 }
 
 .profile-header, .about-me, .skills, .contact {
-    opacity: 0; /* Start elements out as invisible */
+    opacity: 0; 
     animation: flyInFromLeft 0.8s ease-out forwards;
 }
 
@@ -133,9 +133,6 @@ body, html {
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
-
-
-/* Ensure you add transitions to .button and .skills li for smooth animations */
 .button, .skills li {
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -185,13 +182,13 @@ body, html {
 
 .profile-container::before {
     left: 0;
-    animation-delay: 1s; /* Wait for paint effect */
+    animation-delay: 1s; 
     transform-origin: left center;
 }
 
 .profile-container::after {
     right: 0;
-    animation-delay: 1s; /* Wait for paint effect */
+    animation-delay: 1s; 
     transform-origin: right center;
 }
 
